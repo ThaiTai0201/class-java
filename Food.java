@@ -16,7 +16,7 @@ public class Food {
     public Food(String code, String name, String productionDate, String expirationDate, double importPrice,
             double sellingPrice, String unit, String productionLocation, int quantityInCart) {
         if (code == null) {
-            throw new IllegalArgumentException("Code can't be negative!");
+            throw new IllegalArgumentException("Code can't be negative!!!");
         }
         if (productionDate == null) {
             throw new IllegalArgumentException("Production date can't be negative!");

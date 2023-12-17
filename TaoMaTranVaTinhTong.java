@@ -13,7 +13,7 @@ public class TaoMaTranVaTinhTong {
         int matrix[][] = new int[rows][cols];
 
         // Nhập giá trị từng phần tử trong ma trận
-        System.out.println("Nhap gia tri cho cac phan tu trong ma tran: ");
+        System.out.println("Nhap gia tri cho cac phan tu trong ma tran la: ");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print("matrix[" + (i + 1) + "][" + (j + 1) + "] = ");
